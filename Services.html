@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Services Page</title>
+        <style>
+            .main{
+   
+}
+header{
+   
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color:midnightblue ;
+}
+header>.title{
+       
+        width: 70%; 
+        color: white;
+        font-size: 50px;
+         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+}
+.hlog{
+   
+    height: 80px;
+    width: 30%;
+    font-size: 20px; 
+    color: white;
+    display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+    
+}
+.hlog>p>a{
+       color: white;
+}
+
+a{
+text-decoration: none;
+}
+.nav{
+     
+      width: 100%;
+      display: flex;
+      background-color:white;
+}
+.nav1{
+       
+       width:30%;
+       text-align: center;
+       font-weight: bold;
+       font-size: 23px;
+       display: flex;
+       flex-direction: column;
+}
+.nav2{
+    
+    width:70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav2>div>a{
+              color: black;
+              font-size: 18px;
+              font-weight: bold;
+            
+}
+.nav2>:hover{
+                 background-color: cyan;
+                 height: 90px;  
+}
+.ddl{
+       position: relative;
+       display: inline-block;
+}
+.ddlsub{
+       display: none;
+       position: absolute;
+       background-color: #f9f9f9;
+       min-width: 160px;
+       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+       z-index: 1;
+}
+.ddlsub a{
+       color: white;
+       padding: 12px 16px;
+       text-decoration: none;
+       display: block;
+}
+.ddlsub{
+       background-color: black;
+      
+}
+.ddlsub>a:hover{
+                 background-color: brown;
+}
+
+.ddl:hover .ddlsub {
+       display: block;
+     }
+ .ddlpage>a{
+             color: black;
+             font-weight: bold;
+             font-size: 18px;
+ } 
+ .services{
+       border-top: 1px solid;
+       height: 550px;
+       background-color: rgb(240,248,255);
+}
+
+.a1{
+       text-align: center;
+       font-size: 40px;
+       font-weight: bold;
+}
+.a2{
+       text-align: center;
+       opacity: 0.8;
+       font-size: 17px;
+}
+.a3{
+    height: 420px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.hhh{
+    height: 350px;
+    width:300px;
+    text-align: center;
+}
+.a3>.hhh>.p1{
+               
+               
+}
+.p2{
+           text-align: center; 
+           font-size: 25px;
+           font-weight: bold; 
+}
+.p3{
+           text-align: center;
+           opacity: 0.8;
+}
+.p4{
+           height: 30px;
+           width: 100px;
+           background-color: midnightblue;  
+           text-align: center;
+           margin-left: 100px;
+              
+}
+.p4>a{
+       color: white;
+       
+}
+.gallery{
+          
+          height: 610px;
+}
+.b1{
+   
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+
+}
+.new{
+      height: 300px;
+      width: 400px;
+}
+.new>img:hover{
+               height: 350px;
+               width: 400px;
+             
+}
+.partners{
+           
+           height: 500px;
+    
+}
+.part1{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top:40px;
+}
+.ppp{
+     
+      height: 200px;
+      width: 200px;
+
+}
+.partners{
+           
+           height: 500px;
+           text-align: center;
+           
+}
+.partners1{
+             margin: 40px;
+             font-size: 40px;
+             font-weight: bold;
+}
+.partners2{
+             text-align: center;
+             opacity: 0.8;
+             font-size: 17px; 
+            
+}
+.part1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:40px;
+  
+}
+.ppp{
+    
+    height: 200px;
+    width: 200px;
+  
+}
+.map{
+   
+   height: 400px;
+}
+.footup{
+   border:1px solid;
+   height: 400px;
+   display: flex;
+   
+}
+.f1{
+
+ height: 400px;
+ width: 400px;
+ text-align: center;
+ background-color:rgb(8,8,8);
+}
+.ttt{
+ 
+ height: 400px;
+ width: 400px;
+ display: flex;
+ justify-content: center;
+ justify-content: space-around;
+
+}
+
+.v1{
+ font-size: 25px;
+ color: white;
+}
+.tag1{
+  
+  height: 270px;
+  width: 160px;
+  
+}
+
+.z1{
+
+ height: 30px;
+ width: 150px;
+ color: white;
+ background-color: rgba(52,52,52);
+ opacity: 0.6;
+ margin: 15px;
+}
+
+.best{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin: 30px;
+}
+.name{
+ display: flex; 
+ justify-content: center;
+
+}
+.subname{
+    border: 1px solid;
+    height: 90px;
+    width: 80px;
+    color: white;
+}
+
+
+
+.footer{
+   border: 1px solid;
+   height: 100px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: black;
+}
+.footer>p>a{
+     color: white;
+}
+.flast{
+color: white;  
+opacity: 0.6;
+}
+.u{
+    margin: 20px;
+}
+.v1{
+    margin: 30px;
+}
+
+
+
+
+
+
+        </style>
+    </head>
+    <body>
+        <div class="main">
+
+            <header>
+                <div class="title"><img src="../ProjectImg/sunlogo.jpg" height="90px" width="80px">Sun Travel</div>
+                
+        </header> 
+
+        <div class="nav">
+            <div class="nav1">
+               <span style="color:aqua; font-size: 30px;">WORLD </span> 
+               <span style="font-size:30px;">TRAVEL  &nbsp; AGENCY</span> 
+               <span style="font-size: 20px;">TOURIST</span> 
+            </div>
+
+            <div class="nav2">
+                <div><a href="NewTourBookingsystem.html">HOME</a></div>
+                <div><a href="Services.html">SERVICES</a></div>
+                <div><a href="Partners.html">PARTNERS</a></div>
+
+                <div class="ddl">
+                    <div class="ddlpage"><a href="">PAGES</a></div>
+                    <div class="ddlsub">
+                        <a href="AboutUs.html">About Us-Page</a>
+                        <a href="">Tours-Page</a>
+                        <a href="">Hotels-Page</a>
+                        <a href="">Cars-Page</a>
+                        <a href="">Cruises-Page</a>                        
+                                                
+                    </div>   
+                </div>
+
+                <div><a href="Gallerypage.html">GALLERY</a></div>
+                <div><a href="maintourpage.html">TOURS</a></div>
+               
+                <div><a href="contactus.html">CONTACT US</a></div>
+            </div>
+        </div>
+
+         
+        <div class="services">
+            <p class="a1">WHY WE ARE THE BEST</p>
+            <p class="a2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptates quae quia.<br>
+                 Maiores odit quae enim pariatur debitis, hic, 
+                recusandae velit<br> vitae ad aperiam quia facilis quo eligendi blanditiis similique!</p>
+
+                <div class="a3">
+                 <div class="hhh">
+                     <img src="../ProjectImg/customerlogo.jpg" height="80px" width="120px" class="p1">
+                     <p class="p2">HAPPY CUSTOMERS</p>
+                     <p class="p3">Concateur a bravo durso, sit amet lacrimosa<br> perpentum mobile la franco duro,
+                          saturno<br> prio de la cruse.</p>
+                          <p class="p4"><a href="AboutUs.html">VIEW MORE</a></p>
+                 </div>
+                 <div class="hhh">
+                     <img src="../ProjectImg/tourlogo.webp" height="80px" width="120px" class="p1">
+                     <p class="p2">OUR AMAZING TOURS</p>
+                     <p class="p3">Concateur a bravo durso, sit amet lacrimosa<br> perpentum mobile la franco duro,
+                          saturno<br> prio de la cruse.</p>
+                          <p class="p4"><a href="Pages-Tourpage.html">VIEW MORE</a></p>
+                 </div>
+                 <div class="hhh">
+                     <img src="../ProjectImg/supportlogo.jpg" height="80px" width="120px" class="p1">
+                     <p class="p2">SUPPORT CASES</p>
+                     <p class="p3">Concateur a bravo durso, sit amet lacrimosa<br> perpentum mobile la franco duro,
+                          saturno<br> prio de la cruse.</p>
+                          <p class="p4"><a href="AboutUs.html">VIEW MORE</a></p>
+                 </div>
+                 <div class="hhh">
+                     <img src="../ProjectImg/cruiseslogo.jpeg" height="80px" width="120px" class="p1">
+                     <p class="p2">OUR CRUISES</p>
+                     <p class="p3">Concateur a bravo durso, sit amet lacrimosa<br> perpentum mobile la franco duro,
+                          saturno<br> prio de la cruse.</p>
+                          <p class="p4"><a href="Pages-cruisepage.html">VIEW MORE</a></p>
+                 </div>
+             </div>
+         </div>
+
+         <div class="gallery">
+            <div class="b1">
+               <div class="new"><img src="../ProjectImg/n3.jpg" height="300px" width="377px"></div>
+               <div class="new"><img src="../ProjectImg/n4.jpg" height="300px" width="377px"></div>
+               <div class="new"><img src="../ProjectImg/n5.jpg" height="300px" width="377px"></div>
+               <div class="new"><img src="../ProjectImg/gal2.jpg" height="300px" width="377px"></div>
+            </div>
+
+            <div class="b1">
+             <div class="new"><img src="../ProjectImg/gal1.jpeg" height="300px" width="377px"></div>
+             <div class="new"><img src="../ProjectImg/gal3.jpg" height="300px" width="377px"></div>
+             <div class="new"><img src="../ProjectImg/gal4.jpg" height="300px" width="377px"></div>
+             <div class="new"><img src="../ProjectImg/gal5.jpg" height="300px" width="377px"></div>
+            </div>
+        </div>
+
+        <div class="partners">
+           
+            <p class="partners1">OUR PARTNERS AND INVESTORS</p>
+            <P class="partners2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quis est omnis et quidem corporis quisquam <br>
+                consequatur animi nobis dolorem adipisci non exercitationem sed alias, reprehenderit obcaecati tenetur pariatur voluptate!</P>
+
+                <div class="part1">
+                    <div class="ppp"><img src="../ProjectImg/logo1.jpg" height="200px" width="200px"></div>
+                    <div class="ppp"><img src="../ProjectImg/logo2.jpg" height="200px" width="200px"></div>
+                    <div class="ppp"><img src="../ProjectImg/logo3.jpg" height="200px" width="200px"></div>
+                    <div class="ppp"><img src="../ProjectImg/logo4.jpg" height="200px" width="200px"></div>
+                    <div class="ppp"><img src="../ProjectImg/logo5.jpg" height="200px" width="200px"></div>
+                    <div class="ppp"><img src="../ProjectImg/logo6.jpg" height="250px" width="250px"></div>
+                </div>     
+        </div>
+
+
+        <div class="map">
+            <img src="../ProjectImg/mapimg.jpg" height="400px" width="100%">
+       </div>
+
+
+       <div class="footup">
+        <div class="f1">
+           <p style="font-size:20px; color: white;" class="u">TRAVEL  &nbsp; AGENCY <br> TOURIST </p><br><br>
+           <p style="color: white; font-size:15px";>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit Iusto repellat </p>
+           <p style="color: white; font-size:15px";>Donec volutpat, mi vel egestas eleifend, <br>dolor arcu iaculis nunc. Fusce gravida</p>    
+           <p style="color: white; font-size:15px";>Morbi posuere justo eleifend libero <br>ultricies</p>
+           <p style="color: white; font-size:15px";>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit Iusto repellat </p>
+           <p style="color: white; font-size:15px";>Donec volutpat, mi vel egestas eleifend, <br>dolor arcu iaculis nunc. Fusce gravida</p><br><br> 
+          
+        </div>
+
+
+        <div class="f1">
+            <p class="v1">Recent Post</p>
+            <p style="color: white; font-size:15px";><img src="../ProjectImg/personimg.jpg" height="70px" width="70px">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur debitis minus quis<br> molestias dolores iure accusamus consectetu<br>Jan 15,2022</p>
+            <p style="color: white; font-size:15px";><img src="../ProjectImg/personimg.jpg" height="70px" width="70px">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur debitis minus quis<br> molestias dolores iure accusamus consectetu<br>Jan 15,2022</p>
+           </div>
+
+        <div class="f1">
+            <p class="v1">Tags</p>
+      <div class="ttt">     
+         <div class="tag1"> 
+            <p class="z1">Awesome</p>
+            <p class="z1">Business</p>
+            <p class="z1">Photography</p>
+            <p class="z1">Unique</p>
+            <p class="z1">Branding</p>
+        </div>  
+        
+        <div class="tag1"> 
+           <p class="z1">All</p>
+           <p class="z1">Natures</p>
+           <p class="z1">Creative</p>
+           <p class="z1">Templates</p>
+           <p class="z1">Music</p>
+       </div> 
+   </div>   
+          </div>
+          
+          
+        <div class="f1">
+            <p class="best">BEST OFFERS</p>
+          
+            <div class="name"> 
+            <div class="subname"><img src="../ProjectImg/footn13.jpg" height="90px" width="80px"></div>
+            <div class="subname"><img src="../ProjectImg/footn3.jpg"  height="90px" width="80px"></div>
+            <div class="subname"><img src="../ProjectImg/footn2.jpg"  height="90px" width="80px"></div>
+            <div class="subname"><img src="../ProjectImg/footn4.jpg"  height="90px" width="80px"></div>
+           </div>
+
+           <div class="name">
+               <div class="subname"><img src="../ProjectImg/footn6.jpg"  height="90px" width="80px"></div>
+               <div class="subname"><img src="../ProjectImg/footn5.jpg"  height="90px" width="80px"></div>
+               <div class="subname"><img src="../ProjectImg/footn7.jpg"  height="90px" width="80px"></div>
+               <div class="subname"><img src="../ProjectImg/footn8.jpg"  height="90px" width="80px"></div>
+              </div>
+
+              <div class="name">
+               <div class="subname"><img src="../ProjectImg/footn11.jpg"  height="90px" width="80px"></div>
+               <div class="subname"><img src="../ProjectImg/foot9.jpg"  height="90px" width="80px"></div>
+               <div class="subname"><img src="../ProjectImg/footn12.jpg"  height="90px" width="80px"></div>
+               <div class="subname"><img src="../ProjectImg/footn14.png"  height="90px" width="80px"></div>
+              </div>
+           
+        </div>
+   </div>
+
+
+     <div class="footer">
+         <p><a href="">PRIVACY POLICY</a></p>
+         <p><a href="">ABOUT US</a></p>
+         <P><a href="">SUPPORT</a></P>
+         <P><a href="">FAQ</a></P> 
+         <p><a href="">BLOG</a></p>
+         <p><a href="">FORUM</a></p>
+         <p class="flast">2022 All rights reserved.Travel Company</p>
+     </div>
+
+
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
+
